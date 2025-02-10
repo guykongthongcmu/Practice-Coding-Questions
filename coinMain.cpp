@@ -18,18 +18,13 @@ int sol(vector<int> coins, int n) {
     return combo[n];
 }
 
-int coinMain() {
+int main() {
     vector<int> testArr;
     testArr.push_back(2);
     testArr.push_back(5);
     testArr.push_back(3);
     testArr.push_back(6);
     cout << sol(testArr, 10) << endl;
-    return 0;
-}
-
-int main() {
-    coinMain();
     return 0; 
 }
 
