@@ -33,8 +33,7 @@ int coinMain() {
     testArr.push_back(3);
     testArr.push_back(6);
     coin test(10);
-    int result = test.sol(testArr);
-    cout << result << endl;
+    cout << test.sol(testArr) << endl;
     return 0;
 }
 
